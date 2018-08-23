@@ -8,7 +8,7 @@ import sys
 import argparse
 from wealth_predictor import wealth_predictor
 from age_predictor import age_predictor
-from util import config_reader
+from predictor_utils import config_reader
 
 
 def parse_args(argv=None):
