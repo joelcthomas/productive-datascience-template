@@ -8,6 +8,8 @@ import sys
 import argparse
 from wealth_predictor import wealth_predictor
 from age_predictor import age_predictor
+from util import config_reader
+
 
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(description='Future Predictor - It predicts your life!')
@@ -20,7 +22,14 @@ def parse_args(argv=None):
 
 
 if __name__ == '__main__':
+    # Reading arguments
     args = parse_args(sys.argv[1:])
+
+    # Reading Config
+    config = config_reader.read_config()
+    print(config['future_predictor']['seed'])
+
+    # Process future predictor
     if args.type == 'none':
         print('You have selected to predict nothing')
     elif args.type == 'age':
