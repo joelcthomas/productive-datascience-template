@@ -4,6 +4,8 @@
 AI application to predict your age
 """
 
+from random import randint
+
 
 def predict_age():
-    return 42
+    return randint(1,99)

@@ -27,14 +27,14 @@ if __name__ == '__main__':
 
     # Reading Config
     config = config_reader.read_config()
-    print(config['future_predictor']['seed'])
+    print("Seed:"+config['future_predictor']['seed'])
 
     # Process future predictor
     if args.type == 'none':
         print('You have selected to predict nothing')
     elif args.type == 'age':
-        print(age_predictor.predict_age())
+        print("You are "+str(age_predictor.predict_age())+" years old!")
     elif args.type == 'wealth':
-        print(wealth_predictor.predict_wealth())
+        print("You are worth "+str(wealth_predictor.predict_wealth())+" Million $$$")
     else:
         print('I can\'t predict them yet')

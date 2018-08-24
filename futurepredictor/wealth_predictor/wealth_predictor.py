@@ -4,6 +4,8 @@
 AI application to predict your wealth
 """
 
+from random import randint
+
 
 def predict_wealth():
-    return 42
+    return randint(10,999)
