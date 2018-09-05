@@ -4,7 +4,7 @@
 Unit test cases for predicting wealth
 """
 
-from futurepredictor import wealth_predictor
+from futurepredictor.wealth_predictor import wealth_predictor
 
 
 def test_predicted_wealth_is_numeric():

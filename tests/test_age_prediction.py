@@ -4,7 +4,7 @@
 Unit test cases for predicting age
 """
 
-from futurepredictor import age_predictor
+from futurepredictor.age_predictor import age_predictor
 
 
 def test_predicted_age_is_numeric():
