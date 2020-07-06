@@ -14,9 +14,9 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/ #uncomment if you dont want to push build directories
 develop-eggs/
-dist/
+# dist/ #uncomment if you dont want to push dist directories
 downloads/
 eggs/
 .eggs/
