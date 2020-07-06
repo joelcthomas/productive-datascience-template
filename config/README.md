@@ -1,0 +1,1 @@
+Any configuration of project goes in config.ini file

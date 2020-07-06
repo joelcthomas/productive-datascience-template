@@ -1,1 +1,0 @@
-Information on server or project environment setup goes here

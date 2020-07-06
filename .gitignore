@@ -1,4 +1,6 @@
 /.vscode
+*.code-workspace
+.DS_Store
 
 # Adapted from https://github.com/github/gitignore/blob/master/Python.gitignore
 
